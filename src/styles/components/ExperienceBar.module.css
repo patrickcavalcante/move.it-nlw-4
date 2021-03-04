@@ -1,6 +1,7 @@
 .experienceBar {
   display: flex;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 .experienceBar span {
@@ -26,4 +27,45 @@ span.currentExperience {
   position: absolute;
   top: 12px;
   transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 768px) {
+  .experienceBar {
+    display: flex;
+    align-items: center;
+    background: var(--blue);
+    padding: 10px;
+    margin-bottom: 4rem;
+    border-radius: 0.3rem;
+  }
+
+  .experienceBar span {
+    font-size: 1.25rem;
+    color: var(--white);
+  }
+  
+  .experienceBar > div {
+    flex: 1;
+    height: 6px;
+    border-radius: 4px;
+    background: var(--gray-line);
+    margin: 0 1.5rem;
+    position: relative;
+  }
+  
+  .experienceBar > div > div  {
+    height: 4px;
+    border-radius: 4px;
+    background: var(--green);
+  }
+  
+  span.currentExperience {
+    position: absolute;
+    top: 35px;
+    width: 100%;;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--blue);
+    transform: translateX(-50%);
+  }
 }
