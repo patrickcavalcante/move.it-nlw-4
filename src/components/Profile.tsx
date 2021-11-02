@@ -8,9 +8,9 @@ export function Profile() {
   
   return(
     <div className={styles.profileContainer}>
-      <img src="https://github.com/diego3g.png" alt="Diego Fernandes" />
+      <img src="https://github.com/patrickcavalcante.png" alt="Patrick Cavalcante" />
       <div>
-        <strong>Diego Fernandes</strong>
+        <strong>Patrick Cavalcante</strong>
         <p>
           <img src="icons/level.svg" alt="icon levelUp"/>
           {level}
