@@ -2,13 +2,19 @@
 
 Primeiro, execute o servidor de desenvolvimento:
 
-`` `bash
+```bash
 npm install
-npm run dev
-# ou
+# or
 yarn install
+```
+
+Para executar o projeto:
+
+```bash
+npm run dev
+# or
 yarn dev
-`` `
+```
 
 Abra [http: // localhost: 3000] (http: // localhost: 3000) com seu navegador para ver o resultado.
 
